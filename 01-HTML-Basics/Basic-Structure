@@ -68,24 +68,21 @@ The <img> tag embeds an image. The src attribute specifies the path to the image
 
 ## Lists:
 
-Unordered Lists:
-
+**Unordered Lists:
 <ul>
   <li>Item 1</li>
   <li>Item 2</li>
 </ul>
 An unordered list creates a bulleted list using the <ul> tag.
 
-## Ordered Lists:
-
+**Ordered Lists:
 <ol>
   <li>First item</li>
   <li>Second item</li>
 </ol>
 An ordered list creates a numbered list using the <ol> tag.
 
-## Forms:
-
+**Forms:
 <form action="/submit" method="post">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name">
@@ -93,8 +90,7 @@ An ordered list creates a numbered list using the <ol> tag.
 </form>
 Forms collect user input. They can include various input elements like text fields, checkboxes, and radio buttons.
 
-## Semantic HTML
-
+**Semantic HTML:
 Semantic HTML elements provide meaning to the content they enclose, making it easier for both humans and machines to understand the structure of a web page. Examples include:
 
 <header>
@@ -111,28 +107,25 @@ Semantic HTML elements provide meaning to the content they enclose, making it ea
 </footer>
 These elements clearly define different sections of a webpage, improving accessibility and SEO.
 
-# Multimedia Elements
+## Multimedia Elements
 
 HTML also supports multimedia elements:
 
-## Audio:
-
+**Audio:
 <audio controls>
   <source src="audiofile.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 The <audio> tag embeds audio content.
 
-## Video:
-
+**Video:
 <video width="320" height="240" controls>
   <source src="videofile.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 The <video> tag embeds video content.
 
-## Tables
-
+** Tables:
 Tables organize data in rows and columns:
 
 <table>
@@ -147,8 +140,8 @@ Tables organize data in rows and columns:
 </table>
 The <table> tag defines the table, <tr> defines a table row, <th> defines a header cell, and <td> defines a standard cell.
 
-## Comments
 
+** Comments:
 Comments are useful for adding notes or explanations within your code:
 
 <!-- This is a comment -->
