@@ -1,0 +1,18 @@
+body{
+  margin: 0;
+  padding: 0; 
+}
+.section-1{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+}
+.section-2{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  height:84vmax;
+  align-items: center;
+  text-align: center;
+}
