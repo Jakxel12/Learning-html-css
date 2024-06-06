@@ -1,18 +1,40 @@
 body{
+  background: linear-gradient(to bottom, rgb(121, 121, 250), lightblue);
+  height: 100vh;
+  max-height: 99vh;
   margin: 0;
   padding: 0; 
 }
+div{
+  margin: 10px;
+  padding: 10px;
+}
+.display{
+
+
+}
 .section-1{
+  background-color: rgba(255, 255, 255);
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   text-align: center;
+  border-radius: 10px;
+}
+.section-1-1{
+  background-color: rgba(0,0,0, 0.1);
+  border-radius: 10px;
+  width: 80vw;
+}
+.section-1-2{
+  background-color: rgba(0,0,0, 0.1);
+  border-radius: 10px;
 }
 .section-2{
   display: grid;
   grid-template-columns: 1fr;
-  margin: auto;
-  height:84vmax;
   align-items: center;
   text-align: center;
+  background-color: white;
+  border-radius: 10px;
 }
