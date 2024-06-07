@@ -8,26 +8,23 @@
   <title>Exercise-01</title>
 </head>
 <body>
-  <div class="display">
-    <div class="section-1">
-      <div class="section-1-1">
-        <p class="titulo">Iniciar Sesion</p>
+  <div class="container">
+    <div class="login-section">
+      <div class="header">
+        <p class="title">Iniciar Sesión</p>
       </div>
-      <div class="section-1-2">
-        <P> Dates:</P>
-        <div class="datos-nombre">
-          <input type="text" name="nombre" placeholder="Nombre:">
-          <input type="text" name="apellidos" placeholder="Apellidos:">
+      <div class="form-section">
+        <p>Datos:</p>
+        <div class="name-inputs">
+          <input type="text" name="nombre" placeholder="Nombre:" aria-label="Nombre">
+          <input type="text" name="apellidos" placeholder="Apellidos:" aria-label="Apellidos">
         </div>
-        <div class="email">
-          <input type="email" name="email" placeholder="Email:">
-          
+        <div class="email-input">
+          <input type="email" name="email" placeholder="Email:" aria-label="Email">
         </div>
-        <div class="cont">
-           <input type="password" name="contrasena" placeholder="Password:">
-           <button>
-            insertar
-           </button>
+        <div class="password-input">
+          <input type="password" name="contrasena" placeholder="Password:" aria-label="Password">
+          <button type="submit">Insertar</button>
         </div>
       </div>
     </div>
