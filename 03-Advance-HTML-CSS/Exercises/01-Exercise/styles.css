@@ -73,18 +73,3 @@ button:hover{
   font-size: 30px;
   color: rgb(115, 172, 247);
 }
-
-
-
-
-
-
-
-.section-2{
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  text-align: center;
-  background-color: white;
-  border-radius: 10px;
-}
