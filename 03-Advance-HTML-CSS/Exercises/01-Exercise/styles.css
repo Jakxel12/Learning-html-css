@@ -1,92 +1,69 @@
-body {
-  background: linear-gradient(to bottom, rgb(121, 121, 250), lightblue);
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-.container {
+body, html {
+  height: 100%;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
-.login-section {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.header {
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.title {
-  font-size: 30px;
-  color: rgb(115, 172, 247);
-  margin: 0;
-}
-
-.form-section {
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.form-section p {
-  color: lightgray;
-  margin-left: 3%;
-}
-
-input {
-  width: calc(50% - 5px);
-  margin-bottom: 10px;
-  padding: 5px;
+.conteiner{
+  display: grid;
+  justify-content: center;
+  grid-template-rows: auto auto;
+  border-style: solid;  
+  border-color: lightgrey;
   border-radius: 5px;
-  border: none;
-  font-family: Arial, Helvetica, sans-serif;
+  border-width: 1px;
+  padding: 2%;
+  height: max-content;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 0 15px lightgrey;
 }
 
-.name-inputs {
+.name{
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
+  align-items: flex-start;
 }
-
-.email-input input,
-.password-input input {
-  width: 96.5%;
+input{
+  border-radius: 3px;
+  padding: 5px;
+  width: 300px;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
-
-.password-input {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+input:hover{
+  background-color: rgb(243, 243, 243);
+  transition: 1s;
 }
 
-.password-input input {
-  width: 65%;
+button{
+  width: 312px;
+  height: 59px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(0,0,0, 0.04);
 }
-
-.password-input button {
-  width: 28%;
-  height: auto;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(115, 172, 247);
-  color: white;
+button:hover{
+  background-color: rgb(0,0,0, 0.1);
+  transition:1s;
+}
+button:active{
+  background-color: rgb(0,0,0, 0.04);
+  font-size: large;
+  transition: all;
+  
+}
+.section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+p{
   font-size: 10px;
-  cursor: pointer;
-}
-
-.password-input button:hover {
-  background-color: rgba(115, 172, 247, 0.5);
+  text-align: end;
+  margin-right: 11px;
+  color: rgb(0,0,0, 0.3);
 }
