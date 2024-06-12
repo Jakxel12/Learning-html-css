@@ -46,10 +46,12 @@ label{
   color: #ccc;
 }
 #box{
-  display: grid;
-  grid-template-columns: 100px 35% 100px 35% ;
+  display: flex;
+  justify-content: space-between;
 }
+
 input{
+  width: 46vh;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
