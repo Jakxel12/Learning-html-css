@@ -1,4 +1,4 @@
-# Learning HTML and CSS
+# Learning HTML and CSS.
 
 Welcome to my journey of learning HTML and CSS! This repository is dedicated to documenting my progress as I learn and practice web development with HTML and CSS. Here, you will find study materials, exercises, examples, and projects that I have worked on to improve my skills. I will be updating this repository regularly as I cover new topics and complete new projects.
 
